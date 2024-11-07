@@ -1,0 +1,54 @@
+main {
+    height: 300vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.d-block {
+    max-height: 600px;
+}
+
+#roupas-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+h4 {
+    padding: 20px;
+    margin-bottom: 0px !important;
+}
+
+.cards-container {
+    display: flex;
+}
+
+
+.cards {
+    min-height: 19rem;
+    max-width: 13.8rem;
+    padding: 10px;
+    background-color: rgb(209, 209, 209);
+    margin: 10px;
+}
+
+.cards-img {
+    min-height: 150px;
+    min-width: 200px;
+}
+
+.cards-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    align-items: center;
+}

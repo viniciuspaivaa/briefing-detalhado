@@ -7,6 +7,10 @@
     font-family: "Lato", sans-serif;
 }
 
+p {
+    margin-bottom: 0px !important;
+}
+
 #header {
     display: flex;
     align-items: center;
