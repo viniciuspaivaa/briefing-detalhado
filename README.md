@@ -1,7 +1,9 @@
 # BrunaMara
 
 **Proposta do Site:** Site designado para venda de roupas.
+
 **Cliente(s):** Bruna
+
 **Desenvolvedor(es):** Edgar, Vinicius
 
 ## Recursos utilizados:
