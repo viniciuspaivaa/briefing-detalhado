@@ -24,3 +24,9 @@
 - [ ] Ajustar responsividade dos _cards_
 - [ ] Criar mais categorias no corpo do site
 - [ ] Criar demais páginas para carrinho, login, cadastro, produto
+
+## Responsividade Atual
+
+<div align="center">
+    <img src="assets/img/reponsividade-inicial.gif" width="500" alt="gif responsividade">
+</div>
