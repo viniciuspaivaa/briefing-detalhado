@@ -14,11 +14,11 @@
 - Git
 - Github
 
-##Etapas Implementadas
+## Etapas Implementadas
 - [x] Criação do header
 - [x] Inserção bootstrap carrosel
 
-##Backlog
+## Backlog
 - [ ] Inserir imagens no carrosel de dimensões corretas
 - [ ] Orientação correta dos _cards_ ao centro da página
 - [ ] Ajustar responsividade dos _cards_
