@@ -5,7 +5,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .d-block {
@@ -27,11 +26,12 @@ h4 {
 
 .cards-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
 .cards {
-    min-height: 19rem;
+    min-height: 21.25rem;
     max-width: 13.8rem;
     padding: 10px;
     background-color: rgb(209, 209, 209);
@@ -39,8 +39,8 @@ h4 {
 }
 
 .cards-img {
-    min-height: 150px;
-    min-width: 200px;
+    height: 265px;
+    width: 200px;
 }
 
 .cards-content {
