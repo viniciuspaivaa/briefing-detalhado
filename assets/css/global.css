@@ -16,6 +16,7 @@ p {
     align-items: center;
     justify-content: space-around;
     border-bottom: 2px solid black;
+    position: relative;
 }
 
 #logo {
@@ -35,7 +36,7 @@ p {
     font-size: 14px;
 }
 
-.navbar-links::after {
+/* .navbar-links::after {
     background-color: black;
     color: black;
     display: flex;
@@ -48,6 +49,33 @@ p {
 
 .navbar-links:hover::after {
     width: 100%;
+} */
+
+#roupas-navbar:hover + #roupas-box{
+    display: flex;
+}
+
+#roupas-box {
+    position: absolute;
+    right: 32%;
+    z-index: 1;
+    margin-top: 230px;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    gap: 10px;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.roupas-link {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 #icons {
@@ -60,6 +88,10 @@ p {
     align-items: center;
     font-size: 23px;
     cursor: pointer;
+}
+
+.bi-person {
+    font-size: 26px;
 }
 
 .bi-heart-fill {
