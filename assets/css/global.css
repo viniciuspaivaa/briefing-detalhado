@@ -17,10 +17,11 @@ p {
     justify-content: space-around;
     border-bottom: 2px solid black;
     position: relative;
+    height: 70px;
 }
 
 #logo {
-    width: 100px;
+    height: 50px;
 }
 
 #navbar {
@@ -51,17 +52,20 @@ p {
     width: 100%;
 } */
 
-#roupas-navbar:hover + #roupas-box{
+#menu-flutuante {
+    position: relative;
+}
+
+#menu-flutuante:hover #roupas-box {
     display: flex;
 }
 
 #roupas-box {
     position: absolute;
-    right: 32%;
+    right: -70px;
     z-index: 1;
-    margin-top: 230px;
     padding: 8px;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     gap: 10px;
     background-color: white;
@@ -69,6 +73,7 @@ p {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    width: 200px;
 }
 
 .roupas-link {
