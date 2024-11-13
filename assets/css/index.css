@@ -43,8 +43,18 @@ h4 {
     width: 100%;
     display: flex;
     justify-content: end;
+    align-items: center;
     gap: 15px;
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.see-more > p {
+    font-size: 14px;
+}
+
+.bi-arrow-right {
+    font-size: 28px !important;
 }
 
 .cards-container {
