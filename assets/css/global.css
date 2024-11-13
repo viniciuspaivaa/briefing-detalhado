@@ -112,3 +112,23 @@ p {
 .bi-heart-fill {
     display: none;
 }
+
+footer {
+    
+}
+
+#social-media {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: bold;
+    border-top: 2px solid black;
+    gap: 8px;
+    padding: 5px 20px;
+}
+
+#footer-content {
+    background-color: rgb(78, 78, 78);
+    height: 180px;
+}
