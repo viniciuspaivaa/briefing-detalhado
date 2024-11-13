@@ -114,7 +114,7 @@ p {
 }
 
 footer {
-    
+    padding-top: 20px;
 }
 
 #social-media {
@@ -130,5 +130,11 @@ footer {
 
 #footer-content {
     background-color: rgb(78, 78, 78);
-    height: 180px;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

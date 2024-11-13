@@ -11,6 +11,10 @@ main {
     align-items: center;
 }
 
+.carousel {
+    margin-bottom: 5px;
+}
+
 .d-block {
     max-height: 600px;
 }
@@ -23,13 +27,24 @@ main {
     max-width: 1200px;
 }
 
+.categories-title {
+    display: flex;
+    align-items: center;
+    flex: 1 1;
+}
+
 h4 {
     padding: 20px;
     margin-bottom: 0px !important;
+    width: 50%;
 }
 
-#category1-title {
-    margin-top: 10px;
+.see-more {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-right: 10px;
 }
 
 .cards-container {
