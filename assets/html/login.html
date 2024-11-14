@@ -8,19 +8,23 @@
 </head>
 <body id="body">
     <main>
-        <div id="login-form-container">
-            <form id="login-form" action="" method="get">
-                <div class="login-case">
-                    <label class="login-label" for="name">NOME</label>
-                    <input class="login-input" type="text">
+        <p id="title">ENTRE NA SUA CONTA</p>
+
+        <div class="login-form-container">
+            <form id="form" action="" method="get">
+                <img id="logo" src="../img/logotipo-recortada.png" alt="">
+
+                <div class="float">
+                    <label class="label" for="name">NOME</label>
+                    <input class="input" type="text">
                 </div>
                 
-                <div class="login-case">
-                    <label class="login-label" for="password">SENHA</label>
-                    <input class="login-input" type="password">
+                <div class="float">
+                    <label class="label" for="password">SENHA</label>
+                    <input class="input" type="password">
                 </div>
 
-                <a id="register" href="./register.html">Não possui cadastro?</a>
+                <a id="link" href="./register.html">Não possui cadastro?</a>
 
                 <button id="button">ENTRAR</button>
             </form>
