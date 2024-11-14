@@ -40,7 +40,7 @@ footer.innerHTML +=
 "<div id='footer-content'>" +
     "<p>TODOS DIREITOS RESERVADOS</p>" +
 "</div>";
-body.appendChild(footer);
+// body.appendChild(footer);
 
 const heart = document.getElementsByClassName("bi-heart")[0];
 const heartFill = document.getElementsByClassName("bi-heart-fill")[0];

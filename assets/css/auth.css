@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-form-container {
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#login-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 125px;
+}
+
+.login-case {
+    display: flex;
+}
+
+#register {
+    
+    font-size: 14px;
+    color: black;
+}
+
+#button {
+    cursor: pointer;
+    width: 60px;
+    border: 0;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+footer {
+    position: fixed;
+}

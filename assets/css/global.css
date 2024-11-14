@@ -114,9 +114,7 @@ header {
 }
 
 footer {
-    padding-top: 20px;
     bottom: 0;
-    position: absolute;
     width: 100%;
 }
 
@@ -133,11 +131,32 @@ footer {
 
 #footer-content {
     background-color: rgb(78, 78, 78);
-    height: 80px;
+    height: 200px;
     color: white;
     font-size: 15px;
-    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+#copyright {
+    font-size: 10px;
+}
+
+#infos {
+    font-size: 12px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infos-title {
+    text-align: center;
+    font-weight: 600;
+}
+
+.infos-p {
+    cursor: pointer;
 }
