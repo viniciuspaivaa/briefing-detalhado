@@ -1,12 +1,18 @@
+//Manipulação DOM
 const head = document.getElementById('head');
 const body = document.getElementById('body');
+const footerContent = document.getElementById('footer-content');
+const heart = document.getElementsByClassName("bi-heart")[0];
+const heartFill = document.getElementsByClassName("bi-heart-fill")[0];
 
+//Head Global
 head.innerHTML +=
 "<link rel='shortcut icon' href='/assets/img/favicon/favicon.ico' type='image/x-icon'>" +
 "<link rel='stylesheet' href='/assets/css/global.css'>" +
 "<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css'>" +
 "<title>BrunaMara</title>";
 
+//Header Global
 const header = document.createElement('header');
 header.innerHTML += 
 "<a href='/index.html'><img id='logo' src='/assets/img/logotipo-recortada.png' alt='logo'></a>" +
@@ -30,6 +36,7 @@ header.innerHTML +=
 "</div>";
 body.prepend(header);
 
+//Footer Global
 const footer = document.createElement('footer');
 footer.innerHTML +=
 "<div id='social-media'>" +
@@ -38,12 +45,14 @@ footer.innerHTML +=
     "<i class='bi bi-twitter-x'></i>" +
 "</div>" +
 "<div id='footer-content'>" +
-    "<p>TODOS DIREITOS RESERVADOS</p>" +
+    "<div id='rights'>" +
+        "<p>TODOS DIREITOS RESERVADOS</p>" +
+        "<p id='copyright'>Copyright 2024</p>" +
+    "</div>" +
 "</div>";
-// body.appendChild(footer);
+body.appendChild(footer);
 
-const heart = document.getElementsByClassName("bi-heart")[0];
-const heartFill = document.getElementsByClassName("bi-heart-fill")[0];
+// Troca de Ícone Bootstrap de Favoritas no Cabeçalho
 let isHeartFilled = false;
 
 heart.addEventListener('mouseenter', () => {

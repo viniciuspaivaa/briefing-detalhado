@@ -17,7 +17,7 @@ main {
 }
 
 .register-form-container {
-    height: 480px !important;
+    height: 500px !important;
 }
 
 .login-form-container {
@@ -29,7 +29,7 @@ main {
     flex-direction: column;
 }
 
-#logo {
+#form-logo {
     width: 120px;
     height: auto;
 }
@@ -83,3 +83,4 @@ main {
 footer {
     position: fixed;
 }
+
