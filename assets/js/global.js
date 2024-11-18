@@ -73,10 +73,10 @@ footer.innerHTML +=
 "</div>";
 body.appendChild(footer);
 
-const footerContent = document.getElementById('footer-content');
-
+//Index Extra Footer
 const infos = document.createElement('div');
 infos.setAttribute('id', 'infos');
+
 infos.innerHTML +=
 "<div>" +
     "<p class='infos-title'>TERMOS</p>" +

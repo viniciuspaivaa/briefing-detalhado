@@ -146,21 +146,3 @@ footer {
 #copyright {
     font-size: 10px;
 }
-
-#infos {
-    height: 100px;
-    font-size: 12px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.infos-title {
-    text-align: center;
-    font-weight: 600;
-}
-
-.infos-p {
-    cursor: pointer;
-}
