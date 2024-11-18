@@ -26,8 +26,13 @@
 
 ## Backlog
 - [ ] Ajustar o rodapé
+- [ ] Adicionar animação de produto favoritado
+- [ ] Animação de produto adicionado ao carrinho
 - [ ] Criar página de carrinho
 - [ ] Criar página de produtos
+- [ ] Criar formulário para contato
+- [ ] Criar página sobre nós
+- [ ] Adicionar mais animações ao site
 
 ## Responsividade Atual
 
