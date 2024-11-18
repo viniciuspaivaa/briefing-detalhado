@@ -29,7 +29,7 @@ header.innerHTML +=
         "<a href='/assets/html/login.html'><i class='bi bi-person'></i></a>" +
         "<i class='bi bi-heart'></i>" +
         "<i class='bi bi-heart-fill'></i>" +
-        "<i class='bi bi-cart3'></i>" +
+        "<a href='/assets/html/cart.html'><i class='bi bi-cart3'></i></a>" +
     "</div>" +
 "</div>";
 body.prepend(header);
