@@ -1,9 +1,7 @@
 //Manipulação DOM
 const head = document.getElementById('head');
 const body = document.getElementById('body');
-const footerContent = document.getElementById('footer-content');
-const heart = document.getElementsByClassName("bi-heart")[0];
-const heartFill = document.getElementsByClassName("bi-heart-fill")[0];
+const indexBody = document.getElementsByClassName('index-body')[0];
 
 //Head Global
 head.innerHTML +=
@@ -36,23 +34,10 @@ header.innerHTML +=
 "</div>";
 body.prepend(header);
 
-//Footer Global
-const footer = document.createElement('footer');
-footer.innerHTML +=
-"<div id='social-media'>" +
-    "<p>SIGA-NOS NAS REDES</p>" +
-    "<i class='bi bi-instagram'></i>" +
-    "<i class='bi bi-twitter-x'></i>" +
-"</div>" +
-"<div id='footer-content'>" +
-    "<div id='rights'>" +
-        "<p>TODOS DIREITOS RESERVADOS</p>" +
-        "<p id='copyright'>Copyright 2024</p>" +
-    "</div>" +
-"</div>";
-body.appendChild(footer);
-
 // Troca de Ícone Bootstrap de Favoritas no Cabeçalho
+const heart = document.getElementsByClassName("bi-heart")[0];
+const heartFill = document.getElementsByClassName("bi-heart-fill")[0];
+
 let isHeartFilled = false;
 
 heart.addEventListener('mouseenter', () => {
@@ -70,3 +55,50 @@ heartFill.addEventListener('mouseleave', () => {
         isHeartFilled = false;
     }
 });
+
+//Footer Global
+const footer = document.createElement('footer');
+
+footer.innerHTML +=
+"<div id='social-media'>" +
+    "<p>SIGA-NOS NAS REDES</p>" +
+    "<i class='bi bi-instagram'></i>" +
+    "<i class='bi bi-twitter-x'></i>" +
+"</div>" +
+"<div id='footer-content'>" +
+    "<div id='rights'>" +
+        "<p>TODOS DIREITOS RESERVADOS</p>" +
+        "<p id='copyright'>Copyright 2024</p>" +
+    "</div>" +
+"</div>";
+body.appendChild(footer);
+
+const footerContent = document.getElementById('footer-content');
+
+const infos = document.createElement('div');
+infos.setAttribute('id', 'infos');
+infos.innerHTML +=
+"<div>" +
+    "<p class='infos-title'>TERMOS</p>" +
+    "<p class='infos-p'>Políticas de Uso</p>" +
+    "<p class='infos-p'>Entregas e Devoluções</p>" +
+"</div>" +
+"<div>" +
+    "<p class='infos-title'>SEGURANÇA DOS DADOS</p>" +
+    "<p class='infos-p'>Como protegemos os dados?</p>" +
+"</div>";
+
+indexBody.appendChild(infos);
+
+
+
+
+
+
+
+
+
+
+
+
+
