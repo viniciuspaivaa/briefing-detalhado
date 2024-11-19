@@ -17,13 +17,22 @@
 ## Etapas Implementadas
 - [x] Criação do header
 - [x] Inserção bootstrap carrosel
+- [x] Inserir imagens no carrosel de dimensões corretas
+- [x] Inserir imagens no carrosel de dimensões corretas
+- [x] Orientação correta dos _cards_ ao centro da página
+- [x] Ajustar responsividade dos _cards_
+- [x] Criar mais categorias no corpo do site
+- [x] Criadas páginas de login e registro
 
 ## Backlog
-- [ ] Inserir imagens no carrosel de dimensões corretas
-- [ ] Orientação correta dos _cards_ ao centro da página
-- [ ] Ajustar responsividade dos _cards_
-- [ ] Criar mais categorias no corpo do site
-- [ ] Criar demais páginas para carrinho, login, cadastro, produto
+- [ ] Ajustar o rodapé
+- [ ] Adicionar animação de produto favoritado
+- [ ] Animação de produto adicionado ao carrinho
+- [ ] Criar página de carrinho
+- [ ] Criar página de produtos
+- [ ] Criar formulário para contato
+- [ ] Criar página sobre nós
+- [ ] Adicionar mais animações ao site
 
 ## Responsividade Atual
 
