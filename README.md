@@ -37,3 +37,7 @@
 ## Responsividade Atual
 <img src="assets/img/reponsividade-inicial.gif" width="500" alt="gif responsividade">
 
+## Preview
+<img src="assets/img/preview.gif" width="500" alt="gif responsividade">
+
+
