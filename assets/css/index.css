@@ -1,5 +1,4 @@
 body {
-
     padding-top: 70px;
 }
 
@@ -31,7 +30,6 @@ main {
 .categories-title {
     display: flex;
     align-items: center;
-    flex: 1 1;
 }
 
 h4 {
