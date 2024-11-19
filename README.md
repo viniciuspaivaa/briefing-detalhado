@@ -35,7 +35,9 @@
 - [ ] Adicionar mais animações ao site
 
 ## Responsividade Atual
+<img src="assets/img/reponsividade-inicial.gif" width="500" alt="gif responsividade">
 
-<div align="center">
-    <img src="assets/img/reponsividade-inicial.gif" width="500" alt="gif responsividade">
-</div>
+## Preview
+<img src="assets/img/preview.gif" width="500" alt="gif responsividade">
+
+
