@@ -23,21 +23,25 @@
 - [x] Ajustar responsividade dos _cards_
 - [x] Criar mais categorias no corpo do site
 - [x] Criadas páginas de login e registro
+- [x] Ajustar o rodapé
 
 ## Backlog
-- [ ] Ajustar o rodapé
+- [ ] Criar página de carrinho
 - [ ] Adicionar animação de produto favoritado
 - [ ] Animação de produto adicionado ao carrinho
-- [ ] Criar página de carrinho
 - [ ] Criar página de produtos
 - [ ] Criar formulário para contato
 - [ ] Criar página sobre nós
 - [ ] Adicionar mais animações ao site
 
-## Responsividade Atual
-<img src="assets/img/reponsividade-inicial.gif" width="500" alt="gif responsividade">
-
 ## Preview
-<img src="assets/img/preview.gif" width="500" alt="gif responsividade">
+<div align="center">
+  <img src="assets/img/preview.gif" width="500" alt="gif responsividade">
+</div>
+
+## Responsividade Atual
+<div align="center">
+    <img src="assets/img/reponsividade-inicial.gif" width="500" alt="gif responsividade">
+</div>
 
 
