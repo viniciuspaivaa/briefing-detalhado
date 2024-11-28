@@ -36,8 +36,19 @@ header.innerHTML +=
 body.prepend(header);
 
 //Responsividade Mobile
+body.innerHTML += 
+"<div id='sidebar' style='display: none;'>" +
+    "<a class='roupas-link' href='/index.html#category1-title'>FEMININO</a>" +
+    "<a class='roupas-link' href='/index.html#category2-title'>MASCULINO</a>" +
+    "<a class='roupas-link' href='/index.html#category3-title'>FEMININO PLUS SIZE</a>" +
+    "<a class='roupas-link' href='/index.html#category4-title'>MASCULINO PLUS SIZE</a>" +
+    "<a class='navbar-links navbar-links-sidebar roupas-link' href=''>CONTATO</a>" +
+"</div>";
+// const sidebar = document.createElement('div');
+// sidebar.createAtribute()
 
-
+// sidebar.innerHTML += sidebarContent;
+// body.prepend(sidebar)
 
 const hamburguerIcon = document.getElementsByClassName('bi-list')[0];
 const sidebar = document.getElementById('sidebar');
