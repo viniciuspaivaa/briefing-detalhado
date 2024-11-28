@@ -26,6 +26,7 @@ header.innerHTML +=
     "</div>" +
     "<a class='navbar-links' href=''>CONTATO</a>" +
     "<div id='icons'>" +
+        "<i class='bi bi-list'></i>" +
         "<a href='/assets/html/login.html'><i class='bi bi-person'></i></a>" +
         "<i class='bi bi-heart'></i>" +
         "<i class='bi bi-heart-fill'></i>" +
@@ -33,6 +34,21 @@ header.innerHTML +=
     "</div>" +
 "</div>";
 body.prepend(header);
+
+//Responsividade Mobile
+
+
+
+const hamburguerIcon = document.getElementsByClassName('bi-list')[0];
+const sidebar = document.getElementById('sidebar');
+
+hamburguerIcon.addEventListener('click', () => {
+    if(sidebar.style.display == 'none'){
+        sidebar.style.display = 'flex';
+    } else {
+        sidebar.style.display = 'none';
+    }
+})
 
 // Troca de Ícone Bootstrap de Favoritas no Cabeçalho
 const heart = document.getElementsByClassName("bi-heart")[0];

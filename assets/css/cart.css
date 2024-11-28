@@ -31,6 +31,7 @@ main {
 
 .product-img {
     width: 60px;
+    height: 80px;
     margin: 10px 50px 10px 10px;
 }
 
@@ -217,15 +218,37 @@ main {
     border-radius: 5px;
     align-self: end;
     padding: 10px;
+    margin-top: 20px;
 }
 
 @media (max-width: 768px) {
     #container {
         flex-direction: column;
+        justify-content: space-between;
     }
 
     #products {
         width: 100%;
         border: 0;
+    }
+
+    #buy-content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .cards {
+        height: 120px;
+    }
+
+    .product-information {
+        padding: 5px;
+        margin-right: 10px;
+        flex-direction: column;
+    }
+
+    .card-qntd {
+        margin-top: 0px;
     }
 }
