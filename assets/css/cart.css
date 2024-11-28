@@ -210,6 +210,15 @@ main {
     width: 40%;
 }
 
+#buy-button {
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    align-self: end;
+    padding: 10px;
+}
+
 @media (max-width: 768px) {
     #container {
         flex-direction: column;
